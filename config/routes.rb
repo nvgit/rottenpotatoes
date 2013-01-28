@@ -26,6 +26,13 @@ Rottenpotatoes::Application.routes.draw do
   #     end
   #   end
 
+#  resources :movies do
+#    collection do
+#      get 'title_header'
+#    end
+#  end
+  match '/movies/title_header' => 'movies#title_header', :as => 'title_header'
+
   # Sample resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
