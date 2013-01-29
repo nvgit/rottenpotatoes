@@ -44,8 +44,8 @@ table#movies th {
   font-weight: bold;
   background-color: wheat;
 }
-table#movies th.hillite {
-  background-colour: yellow;
+table#movies th.hilite {
+  background: yellow;
 }
 table#movies th, table#movies td {
   padding: 4px;
